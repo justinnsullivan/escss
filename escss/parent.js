@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-import { Class, Id, Element, Extend, BaseCss, masterQueue } from './jscss.js';
+import { Class, Id, Element, Extend, BaseCss, masterQueue } from './escss.js';
 
 var yellow = '#ef4';
 

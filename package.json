@@ -1,11 +1,11 @@
 {
-  "name": "jscss",
+  "name": "escss",
   "version": "1.0.0",
-  "description": "JSON based CSS preprocessor",
+  "description": "ES6 based CSS preprocessor",
   "main": "./src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel --presets es2015,stage-0 -d lib/ jscss/",
+    "compile": "babel --presets es2015,stage-0 -d lib/ escss/",
     "compile2": "babel --presets es2015,stage-0 -d lib/ src/",
     "prerun": "npm run compile && compile2"
   },
@@ -21,6 +21,6 @@
     "babel-core": "^6.17.0"
   },
   "bin": {
-    "jscss" : "index.js"
+    "escss": "index.js"
   }
 }
