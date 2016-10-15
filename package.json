@@ -2,9 +2,12 @@
   "name": "jscss",
   "version": "1.0.0",
   "description": "JSON based CSS preprocessor",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015,stage-0 -d lib/ jscss/",
+    "compile2": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prerun": "npm run compile && compile2"
   },
   "author": "Justin Sullivan",
   "license": "ISC",
@@ -16,5 +19,8 @@
   },
   "devDependencies": {
     "babel-core": "^6.17.0"
+  },
+  "bin": {
+    "jscss" : "index.js"
   }
 }

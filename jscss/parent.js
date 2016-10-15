@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */
-import { Class, Id, Element, Extend, BaseCss, masterQueue } from './src/master.js';
+import { Class, Id, Element, Extend, BaseCss, masterQueue } from './jscss.js';
 
 var yellow = '#ef4';
 
-var mom = new Class(
+export var mom = new Class(
     'mom', {
         'font-size': '12px',
         'font': 'Avenir',
@@ -37,8 +37,7 @@ function transitions(object, args) {
 
 
 var css = new BaseCss('css', '.btn {padding: 15px 30px;cursor: pointer;border: 0;width: 30%;text-align: center;border-radius: 4px;color: green;text-transform: uppercase;font-size: 28px;font-weight: 800;transition: opacity 0.5s;display: block;}');
-var dad = new Id('dad');
+export var dad = new Id('dad');
 dad.extend(mom);
 dad.addAttribute('padding-top', '10px');
 transitions(dad, 'opacity 0.5, width 1s');
-// dad.visuallyHide();
