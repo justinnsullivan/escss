@@ -1,0 +1,312 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/node',
+1 verbose cli   '/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/npm',
+1 verbose cli   'link' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 verbose linkPkg /Users/justinsullivan/Desktop/CODE/jscss
+5 silly gentlyRm /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss is being purged
+6 verbose gentlyRm don't care about contents; nuking /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss
+7 silly vacuum-fs purging /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss
+8 silly vacuum-fs quitting because other entries in /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules
+9 verbose link build target /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss
+10 silly loadCurrentTree Starting
+11 silly install loadCurrentTree
+12 silly install readLocalPackageData
+13 silly install normalizeTree
+14 silly loadCurrentTree Finishing
+15 silly loadIdealTree Starting
+16 silly install loadIdealTree
+17 silly cloneCurrentTree Starting
+18 silly install cloneCurrentTreeToIdealTree
+19 silly cloneCurrentTree Finishing
+20 silly loadShrinkwrap Starting
+21 silly install loadShrinkwrap
+22 silly loadShrinkwrap Finishing
+23 silly loadAllDepsIntoIdealTree Starting
+24 silly install loadAllDepsIntoIdealTree
+25 silly loadAllDepsIntoIdealTree Finishing
+26 silly loadIdealTree Finishing
+27 silly currentTree jscss@1.0.0
+27 silly currentTree ├── ansi-regex@2.0.0
+27 silly currentTree ├── ansi-styles@2.2.1
+27 silly currentTree ├── babel-code-frame@6.16.0
+27 silly currentTree ├── babel-core@6.17.0
+27 silly currentTree ├── babel-generator@6.17.0
+27 silly currentTree ├── babel-helper-call-delegate@6.8.0
+27 silly currentTree ├── babel-helper-define-map@6.9.0
+27 silly currentTree ├── babel-helper-function-name@6.8.0
+27 silly currentTree ├── babel-helper-get-function-arity@6.8.0
+27 silly currentTree ├── babel-helper-hoist-variables@6.8.0
+27 silly currentTree ├── babel-helper-optimise-call-expression@6.8.0
+27 silly currentTree ├── babel-helper-regex@6.9.0
+27 silly currentTree ├── babel-helper-replace-supers@6.16.0
+27 silly currentTree ├── babel-helpers@6.16.0
+27 silly currentTree ├── babel-messages@6.8.0
+27 silly currentTree ├── babel-plugin-check-es2015-constants@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-arrow-functions@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-block-scoped-functions@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-block-scoping@6.15.0
+27 silly currentTree ├── babel-plugin-transform-es2015-classes@6.14.0
+27 silly currentTree ├── babel-plugin-transform-es2015-computed-properties@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-destructuring@6.16.0
+27 silly currentTree ├── babel-plugin-transform-es2015-duplicate-keys@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-for-of@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-function-name@6.9.0
+27 silly currentTree ├── babel-plugin-transform-es2015-literals@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-modules-amd@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-modules-commonjs@6.16.0
+27 silly currentTree ├── babel-plugin-transform-es2015-modules-systemjs@6.14.0
+27 silly currentTree ├── babel-plugin-transform-es2015-modules-umd@6.12.0
+27 silly currentTree ├── babel-plugin-transform-es2015-object-super@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-parameters@6.17.0
+27 silly currentTree ├── babel-plugin-transform-es2015-shorthand-properties@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-spread@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-sticky-regex@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-template-literals@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-typeof-symbol@6.8.0
+27 silly currentTree ├── babel-plugin-transform-es2015-unicode-regex@6.11.0
+27 silly currentTree ├── babel-plugin-transform-regenerator@6.16.1
+27 silly currentTree ├── babel-plugin-transform-strict-mode@6.11.3
+27 silly currentTree ├── babel-preset-es2015@6.16.0
+27 silly currentTree ├── babel-register@6.16.3
+27 silly currentTree ├── babel-runtime@6.11.6
+27 silly currentTree ├── babel-template@6.16.0
+27 silly currentTree ├── babel-traverse@6.16.0
+27 silly currentTree ├── babel-types@6.16.0
+27 silly currentTree ├── babylon@6.12.0
+27 silly currentTree ├── balanced-match@0.4.2
+27 silly currentTree ├── brace-expansion@1.1.6
+27 silly currentTree ├── chalk@1.1.3
+27 silly currentTree ├── concat-map@0.0.1
+27 silly currentTree ├── convert-source-map@1.3.0
+27 silly currentTree ├── core-js@2.4.1
+27 silly currentTree ├── debug@2.2.0
+27 silly currentTree ├── detect-indent@3.0.1
+27 silly currentTree ├─┬ es-collections@0.0.2
+27 silly currentTree │ ├── babel-runtime@5.8.38
+27 silly currentTree │ └── core-js@1.2.7
+27 silly currentTree ├── escape-string-regexp@1.0.5
+27 silly currentTree ├── esutils@2.0.2
+27 silly currentTree ├── fs@0.0.1-security
+27 silly currentTree ├── get-stdin@4.0.1
+27 silly currentTree ├── globals@8.18.0
+27 silly currentTree ├── has-ansi@2.0.0
+27 silly currentTree ├── home-or-tmp@1.0.0
+27 silly currentTree ├── invariant@2.2.1
+27 silly currentTree ├── is-finite@1.0.2
+27 silly currentTree ├── js-tokens@2.0.0
+27 silly currentTree ├── jsesc@1.3.0
+27 silly currentTree ├── json5@0.4.0
+27 silly currentTree ├── lodash@4.16.4
+27 silly currentTree ├─┬ loose-envify@1.2.0
+27 silly currentTree │ └── js-tokens@1.0.3
+27 silly currentTree ├── minimatch@3.0.3
+27 silly currentTree ├── minimist@1.2.0
+27 silly currentTree ├─┬ mkdirp@0.5.1
+27 silly currentTree │ └── minimist@0.0.8
+27 silly currentTree ├── ms@0.7.1
+27 silly currentTree ├── number-is-nan@1.0.1
+27 silly currentTree ├── os-tmpdir@1.0.2
+27 silly currentTree ├── path-exists@1.0.0
+27 silly currentTree ├── path-is-absolute@1.0.1
+27 silly currentTree ├── private@0.1.6
+27 silly currentTree ├── regenerate@1.3.1
+27 silly currentTree ├── regenerator-runtime@0.9.5
+27 silly currentTree ├── regexpu-core@2.0.0
+27 silly currentTree ├── regjsgen@0.2.0
+27 silly currentTree ├─┬ regjsparser@0.1.5
+27 silly currentTree │ └── jsesc@0.5.0
+27 silly currentTree ├── repeating@1.1.3
+27 silly currentTree ├── shebang-regex@1.0.0
+27 silly currentTree ├── slash@1.0.0
+27 silly currentTree ├── source-map-support@0.4.3
+27 silly currentTree ├── source-map@0.5.6
+27 silly currentTree ├── strip-ansi@3.0.1
+27 silly currentTree ├── supports-color@2.0.0
+27 silly currentTree ├── to-fast-properties@1.0.2
+27 silly currentTree └── user-home@1.1.1
+28 silly idealTree jscss@1.0.0
+28 silly idealTree ├── ansi-regex@2.0.0
+28 silly idealTree ├── ansi-styles@2.2.1
+28 silly idealTree ├── babel-code-frame@6.16.0
+28 silly idealTree ├── babel-core@6.17.0
+28 silly idealTree ├── babel-generator@6.17.0
+28 silly idealTree ├── babel-helper-call-delegate@6.8.0
+28 silly idealTree ├── babel-helper-define-map@6.9.0
+28 silly idealTree ├── babel-helper-function-name@6.8.0
+28 silly idealTree ├── babel-helper-get-function-arity@6.8.0
+28 silly idealTree ├── babel-helper-hoist-variables@6.8.0
+28 silly idealTree ├── babel-helper-optimise-call-expression@6.8.0
+28 silly idealTree ├── babel-helper-regex@6.9.0
+28 silly idealTree ├── babel-helper-replace-supers@6.16.0
+28 silly idealTree ├── babel-helpers@6.16.0
+28 silly idealTree ├── babel-messages@6.8.0
+28 silly idealTree ├── babel-plugin-check-es2015-constants@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-arrow-functions@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-block-scoped-functions@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-block-scoping@6.15.0
+28 silly idealTree ├── babel-plugin-transform-es2015-classes@6.14.0
+28 silly idealTree ├── babel-plugin-transform-es2015-computed-properties@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-destructuring@6.16.0
+28 silly idealTree ├── babel-plugin-transform-es2015-duplicate-keys@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-for-of@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-function-name@6.9.0
+28 silly idealTree ├── babel-plugin-transform-es2015-literals@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-modules-amd@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-modules-commonjs@6.16.0
+28 silly idealTree ├── babel-plugin-transform-es2015-modules-systemjs@6.14.0
+28 silly idealTree ├── babel-plugin-transform-es2015-modules-umd@6.12.0
+28 silly idealTree ├── babel-plugin-transform-es2015-object-super@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-parameters@6.17.0
+28 silly idealTree ├── babel-plugin-transform-es2015-shorthand-properties@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-spread@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-sticky-regex@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-template-literals@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-typeof-symbol@6.8.0
+28 silly idealTree ├── babel-plugin-transform-es2015-unicode-regex@6.11.0
+28 silly idealTree ├── babel-plugin-transform-regenerator@6.16.1
+28 silly idealTree ├── babel-plugin-transform-strict-mode@6.11.3
+28 silly idealTree ├── babel-preset-es2015@6.16.0
+28 silly idealTree ├── babel-register@6.16.3
+28 silly idealTree ├── babel-runtime@6.11.6
+28 silly idealTree ├── babel-template@6.16.0
+28 silly idealTree ├── babel-traverse@6.16.0
+28 silly idealTree ├── babel-types@6.16.0
+28 silly idealTree ├── babylon@6.12.0
+28 silly idealTree ├── balanced-match@0.4.2
+28 silly idealTree ├── brace-expansion@1.1.6
+28 silly idealTree ├── chalk@1.1.3
+28 silly idealTree ├── concat-map@0.0.1
+28 silly idealTree ├── convert-source-map@1.3.0
+28 silly idealTree ├── core-js@2.4.1
+28 silly idealTree ├── debug@2.2.0
+28 silly idealTree ├── detect-indent@3.0.1
+28 silly idealTree ├─┬ es-collections@0.0.2
+28 silly idealTree │ ├── babel-runtime@5.8.38
+28 silly idealTree │ └── core-js@1.2.7
+28 silly idealTree ├── escape-string-regexp@1.0.5
+28 silly idealTree ├── esutils@2.0.2
+28 silly idealTree ├── fs@0.0.1-security
+28 silly idealTree ├── get-stdin@4.0.1
+28 silly idealTree ├── globals@8.18.0
+28 silly idealTree ├── has-ansi@2.0.0
+28 silly idealTree ├── home-or-tmp@1.0.0
+28 silly idealTree ├── invariant@2.2.1
+28 silly idealTree ├── is-finite@1.0.2
+28 silly idealTree ├── js-tokens@2.0.0
+28 silly idealTree ├── jsesc@1.3.0
+28 silly idealTree ├── json5@0.4.0
+28 silly idealTree ├── lodash@4.16.4
+28 silly idealTree ├─┬ loose-envify@1.2.0
+28 silly idealTree │ └── js-tokens@1.0.3
+28 silly idealTree ├── minimatch@3.0.3
+28 silly idealTree ├── minimist@1.2.0
+28 silly idealTree ├─┬ mkdirp@0.5.1
+28 silly idealTree │ └── minimist@0.0.8
+28 silly idealTree ├── ms@0.7.1
+28 silly idealTree ├── number-is-nan@1.0.1
+28 silly idealTree ├── os-tmpdir@1.0.2
+28 silly idealTree ├── path-exists@1.0.0
+28 silly idealTree ├── path-is-absolute@1.0.1
+28 silly idealTree ├── private@0.1.6
+28 silly idealTree ├── regenerate@1.3.1
+28 silly idealTree ├── regenerator-runtime@0.9.5
+28 silly idealTree ├── regexpu-core@2.0.0
+28 silly idealTree ├── regjsgen@0.2.0
+28 silly idealTree ├─┬ regjsparser@0.1.5
+28 silly idealTree │ └── jsesc@0.5.0
+28 silly idealTree ├── repeating@1.1.3
+28 silly idealTree ├── shebang-regex@1.0.0
+28 silly idealTree ├── slash@1.0.0
+28 silly idealTree ├── source-map-support@0.4.3
+28 silly idealTree ├── source-map@0.5.6
+28 silly idealTree ├── strip-ansi@3.0.1
+28 silly idealTree ├── supports-color@2.0.0
+28 silly idealTree ├── to-fast-properties@1.0.2
+28 silly idealTree └── user-home@1.1.1
+29 silly generateActionsToTake Starting
+30 silly install generateActionsToTake
+31 silly generateActionsToTake Finishing
+32 silly diffTrees action count 0
+33 silly decomposeActions action count 0
+34 silly executeActions Starting
+35 silly install executeActions
+36 silly doSerial global-install 0
+37 silly doParallel fetch 0
+38 verbose correctMkdir /Users/justinsullivan/.npm/_locks correctMkdir not in flight; initializing
+39 verbose lock using /Users/justinsullivan/.npm/_locks/staging-7f8c3ea36381d0a7.lock for /Users/justinsullivan/Desktop/CODE/jscss/node_modules/.staging
+40 silly doParallel extract 0
+41 silly doParallel preinstall 0
+42 silly doReverseSerial remove 0
+43 silly doSerial move 0
+44 silly doSerial finalize 0
+45 silly doSerial build 0
+46 silly doSerial global-link 0
+47 silly doParallel update-linked 0
+48 silly doSerial install 0
+49 silly doSerial postinstall 0
+50 verbose unlock done using /Users/justinsullivan/.npm/_locks/staging-7f8c3ea36381d0a7.lock for /Users/justinsullivan/Desktop/CODE/jscss/node_modules/.staging
+51 silly executeActions Finishing
+52 silly rollbackFailedOptional Starting
+53 silly rollbackFailedOptional Finishing
+54 silly runTopLevelLifecycles Starting
+55 silly install runTopLevelLifecycles
+56 silly preinstall jscss@1.0.0 /Users/justinsullivan/Desktop/CODE/jscss/jscss-cdba27cd
+57 info lifecycle jscss@1.0.0~preinstall: jscss@1.0.0
+58 silly lifecycle jscss@1.0.0~preinstall: no script for preinstall, continuing
+59 silly build jscss@1.0.0
+60 info linkStuff jscss@1.0.0
+61 silly linkStuff jscss@1.0.0 has /Users/justinsullivan/Desktop/CODE as its parent node_modules
+62 verbose linkBins jscss@1.0.0
+63 verbose linkMans jscss@1.0.0
+64 silly install jscss@1.0.0 /Users/justinsullivan/Desktop/CODE/jscss/jscss-cdba27cd
+65 info lifecycle jscss@1.0.0~install: jscss@1.0.0
+66 silly lifecycle jscss@1.0.0~install: no script for install, continuing
+67 silly postinstall jscss@1.0.0 /Users/justinsullivan/Desktop/CODE/jscss/jscss-cdba27cd
+68 info lifecycle jscss@1.0.0~postinstall: jscss@1.0.0
+69 silly lifecycle jscss@1.0.0~postinstall: no script for postinstall, continuing
+70 silly prepublish jscss@1.0.0 /Users/justinsullivan/Desktop/CODE/jscss/jscss-cdba27cd
+71 info lifecycle jscss@1.0.0~prepublish: jscss@1.0.0
+72 silly lifecycle jscss@1.0.0~prepublish: no script for prepublish, continuing
+73 silly runTopLevelLifecycles Finishing
+74 silly install printInstalled
+75 warn jscss@1.0.0 No repository field.
+76 info build /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss
+77 info linkStuff jscss@1.0.0
+78 silly linkStuff jscss@1.0.0 has /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules as its parent node_modules
+79 silly linkStuff jscss@1.0.0 is part of a global install
+80 silly linkStuff jscss@1.0.0 is installed into a global node_modules
+81 silly linkStuff jscss@1.0.0 is installed into the top-level global node_modules
+82 verbose linkBins jscss@1.0.0
+83 verbose link bins [ { jcss: 'main.js' },
+83 verbose link bins   '/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin',
+83 verbose link bins   true ]
+84 verbose linkMans jscss@1.0.0
+85 silly gentlyRm /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss is being gently removed
+86 silly isEverInside /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss is not inside /Users/justinsullivan/Desktop/CODE/jscss
+87 silly isEverInside /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss/index.js is not inside /Users/justinsullivan/Desktop/CODE/jscss
+88 silly isEverInside /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss is not inside /Users/justinsullivan/Desktop/CODE/jscss
+89 silly isEverInside /Users/justinsullivan/.nvm/versions/node/v6.3.0/lib/node_modules/jscss/index.js is not inside /Users/justinsullivan/Desktop/CODE/jscss
+90 silly gentlyRm parent.path = /Users/justinsullivan/Desktop/CODE/jscss
+91 silly gentlyRm parent.managed = /Users/justinsullivan/Desktop/CODE/jscss is in /Users/justinsullivan/Desktop/CODE/jscss
+92 silly gentlyRm target.path =  /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss
+93 silly gentlyRm target.symlink = ../lib/node_modules/jscss/index.js
+94 silly gentlyRm target.managed = /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss is in /Users/justinsullivan/.nvm/versions/node/v6.3.0
+95 silly gentlyRm target.inParent =  false
+96 warn gentlyRm not removing /Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss as it wasn't installed by /Users/justinsullivan/Desktop/CODE/jscss
+97 verbose stack Error: EEXIST: file already exists, symlink '../lib/node_modules/jscss/main.js' -> '/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss'
+97 verbose stack     at Error (native)
+98 verbose cwd /Users/justinsullivan/Desktop/CODE/jscss
+99 error Darwin 16.0.0
+100 error argv "/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/node" "/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/npm" "link"
+101 error node v6.3.0
+102 error npm  v3.10.3
+103 error path ../lib/node_modules/jscss/main.js
+104 error code EEXIST
+105 error errno -17
+106 error syscall symlink
+107 error EEXIST: file already exists, symlink '../lib/node_modules/jscss/main.js' -> '/Users/justinsullivan/.nvm/versions/node/v6.3.0/bin/jcss'
+108 error File exists: ../lib/node_modules/jscss/main.js
+109 error Move it away, and try again.
+110 verbose exit [ -17, true ]
