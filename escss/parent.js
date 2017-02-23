@@ -1,5 +1,5 @@
 /*jshint esversion: 6 */
-import { Class, Id, Element, Extend, BaseCss, masterQueue } from './escss.js';
+import { Class, Id, Element, Extend, BaseCss, masterQueue } from '../src/escss.js';
 
 var yellow = '#ef4';
 
@@ -18,9 +18,7 @@ export var mom = new Class(
         },
         '&.index': {
             'color': 'coral',
-            'div': {
-                'background-color': 'yellow'
-            }
+            'border-radius': '6px',
         }
     }
 );

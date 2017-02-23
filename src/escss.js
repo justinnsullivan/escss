@@ -1,7 +1,7 @@
 /*jshint esversion: 6 */
 import { Queue } from 'es-collections';
 export var masterQueue = new Queue();
-const indent = '	';
+const indent = '    ';
 const newline = '\n';
 
 export class Class {
@@ -15,8 +15,10 @@ export class Class {
             this.mqs[key] = mqs[key];
         }
         for (key in extensions) {
-            this.extensions[key.replace('&', '!$SELF$!')] = extensions[key];
+            var tem = key.replace('&', this.name);
+            new Class(tem, extensions[key]);
         }
+
         masterQueue.enqueue(this);
     }
     addAttribute(attribute, value) {
@@ -208,8 +210,8 @@ export class BaseCss {
         this.css = css;
         masterQueue.enqueue(this);
     }
-    parse(){
-    	return this.css + newline;
+    parse() {
+        return this.css + newline;
     }
 }
 
